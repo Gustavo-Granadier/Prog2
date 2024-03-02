@@ -7,10 +7,10 @@ import javafx.fxml.FXML;
 
 public class MenuController {
     
-    /*@FXML
+   @FXML
     private void Login() throws IOException {
         App.setRoot("Login");
-    }*/
+    }
     
     
     /*@FXML
@@ -27,12 +27,12 @@ public class MenuController {
     private void EditarMotorista() throws IOException {
         App.setRoot("EditarMotorista");
     }
-    /*
+    
     @FXML
     private void editarOperador() throws IOException {
         App.setRoot("EditarOperador");
     }
-    
+    /*
     @FXML
     private void editarVeiculo() throws IOException {
         App.setRoot("EditarVeiculo");
@@ -43,11 +43,11 @@ public class MenuController {
         App.setRoot("novoMotorista");
     }
     
-    /*@FXML
+    @FXML
     private void cadastrarOperador() throws IOException {
         App.setRoot("novoOperador");
     }
-    
+    /*
     @FXML
     private void cadastrarVeiculo() throws IOException {
         App.setRoot("novoVeiculo");
@@ -58,11 +58,11 @@ public class MenuController {
         App.setRoot("excluirMotorista");
     }
     
-    /*@FXML
+    @FXML
     private void excluirOperador() throws IOException {
         App.setRoot("excluirOperador");
     }
-    
+    /*
     @FXML
     private void excluirVeiculo() throws IOException {
         App.setRoot("excluirVeiculo");
@@ -73,11 +73,11 @@ public class MenuController {
         App.setRoot("listarMotorista");
     }
     
-    /*@FXML
+    @FXML
     private void listarOperador() throws IOException {
         App.setRoot("listarOperador");
     }
-    
+    /*
     @FXML
     private void listarVeiculo() throws IOException {
         App.setRoot("listarVeiculo");

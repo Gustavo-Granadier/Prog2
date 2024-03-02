@@ -44,10 +44,10 @@
       <menus>
         <Menu mnemonicParsing="false" text="Operadores">
           <items>
-            <MenuItem mnemonicParsing="false" text="Novo" />
-            <MenuItem mnemonicParsing="false" text="Editar" />
-            <MenuItem mnemonicParsing="false" text="Excluir" />
-            <MenuItem mnemonicParsing="false" text="Listar" />
+            <MenuItem mnemonicParsing="false" onAction="#cadastrarOperador" text="Novo" />
+            <MenuItem mnemonicParsing="false" onAction="#editarOperador" text="Editar" />
+            <MenuItem mnemonicParsing="false" onAction="#excluirOperador" text="Excluir" />
+            <MenuItem mnemonicParsing="false" onAction="#listarOperador" text="Listar" />
           </items>
         </Menu>
         <Menu mnemonicParsing="false" text="Motoristas">
