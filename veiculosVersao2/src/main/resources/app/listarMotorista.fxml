@@ -10,7 +10,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ListaMotoristaController">
    <children>
       <MenuBar>
@@ -24,18 +23,18 @@
       </MenuBar>
       <AnchorPane prefHeight="373.0" prefWidth="600.0">
          <children>
-            <Label layoutX="224.0" layoutY="39.0" text="Listar Motorista">
+            <Label layoutX="224.0" layoutY="14.0" text="Listar Motorista">
                <font>
                   <Font size="22.0" />
                </font>
             </Label>
-            <TableView fx:id="tabela" layoutX="64.0" layoutY="83.0" prefHeight="255.0" prefWidth="471.0">
+            <TableView fx:id="tabela" layoutY="52.0" prefHeight="324.0" prefWidth="600.0">
               <columns>
-                <TableColumn fx:id="listarNome" prefWidth="96.0" text="Nome" />
-                <TableColumn fx:id="listarEndereco" prefWidth="91.20001220703125" text="Endereço" />
-                  <TableColumn fx:id="listarSetor" prefWidth="88.0" text="Setor" />
-                  <TableColumn fx:id="listarCategoria" prefWidth="93.5999755859375" text="Categoria" />
-                  <TableColumn fx:id="listarCNH" prefWidth="102.4000244140625" text="CNH" />
+                <TableColumn fx:id="listarNome" prefWidth="146.0" text="Nome" />
+                <TableColumn fx:id="listarEndereco" prefWidth="158.0" text="Endereço" />
+                  <TableColumn fx:id="listarSetor" prefWidth="95.0" text="Setor" />
+                  <TableColumn fx:id="listarCategoria" prefWidth="64.0" text="Categoria" />
+                  <TableColumn fx:id="listarCNH" prefWidth="136.0" text="CNH" />
               </columns>
             </TableView>
          </children>

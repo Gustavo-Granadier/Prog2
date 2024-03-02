@@ -21,13 +21,13 @@ public class MenuController {
     @FXML
     private void Busca() throws IOException {
         App.setRoot("Busca");
-    }
+    }*/
     
     @FXML
     private void EditarMotorista() throws IOException {
         App.setRoot("EditarMotorista");
     }
-    
+    /*
     @FXML
     private void editarOperador() throws IOException {
         App.setRoot("EditarOperador");
