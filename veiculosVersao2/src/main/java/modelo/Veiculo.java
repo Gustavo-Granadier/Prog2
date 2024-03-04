@@ -95,5 +95,8 @@ public class Veiculo implements Serializable, Persistivel {
         }
         return Objects.equals(this.codigo, other.codigo);
     }
-    
+  @Override
+  public String toString(){
+      return this.getPlaca();
+  }
 }
